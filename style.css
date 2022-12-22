@@ -1,0 +1,160 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background:black;
+}
+.main_section{
+    width: 100%;
+    height:90vh;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:auto; 
+    align-self: center;
+    text-align: center;
+    color:white;
+    /* justify-content: center;
+   
+    justify-self: center;
+    justify-items: center; */
+}
+.header_section{
+    display:flex;
+   height:80vh;
+   width: 100%;
+   
+   margin:auto;
+   /* align-items: center; */
+}
+
+.generatePin_area{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 42vw;
+    margin: 5px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* align-self: center;
+    justify-content: center; */
+    background-color: rgb(17, 9, 62);
+    padding:10px;
+}
+.generate_button{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    justify-self:center;
+   
+}
+.generatePin_area button{
+    
+    background: rgb(12, 40, 255);
+    color:white;
+    width: 100px;
+    height:100px;
+    font-weight: 800;
+    outline:none;
+    padding: 10px;
+    border:7px solid rgb(32, 1, 167);
+    font-size:15px;
+    border-radius:100px ;
+    
+    justify-content: center; 
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+
+}
+#show-result{
+    margin-top: 20px;
+    padding: 9px;
+    outline: none;
+    height:38px;
+    width:160px;
+    background: rgb(44, 37, 82);
+    border-radius: 2px;
+    border:2px solid rgb(76, 73, 110);
+}
+.usrInput_area{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 42vw;
+    margin: 5px;
+    PADDING:10px;
+    background-color: rgb(17, 9, 62);
+    /* justify-content: center;
+    align-items: center; 
+    align-self: center; */
+    /* justify-content: center; */
+}
+
+.usrInput_area .input_value input{
+    margin-top: 20px;
+    margin-bottom:20px;
+    padding: 2px;
+    font-size: 20px;
+
+    outline: none;
+    height:30px;
+    width:160px;
+    background: rgb(44, 37, 82);
+    border-radius: 2px;
+    border:2px solid rgb(76, 73, 110);
+    text-align: center;
+    color: white;
+    
+}
+.usrInput_area  .buttons{
+    margin-top:20px;
+    width:100%;
+    height:40vh;
+    
+    display:grid;
+    grid-template-columns: 33% 33% 33% ;
+   
+ 
+    
+}
+.usrInput_area .timeline{
+    
+    width:100%;
+    height:10vh;
+}
+.buttons button{
+    padding:10px;
+    margin:3px;
+    color:white;
+    font-size: 19px;
+    font-weight: 800;
+   background:rgb(1, 2, 13);
+   border: 1px solid white;
+}
+.usrInput_area  .buttons button[type="submit"]{
+    grid-column: span 3;
+    margin-bottom:50px;
+}
+#second_count{
+    display:none;
+}
+.bottom_section{
+    width:100%;
+}
+#error{
+    display: none;
+    width:100%;
+    background:red;
+    color:rgb(238, 255, 0);
+}
+#match{
+    display: none;
+    width:100%;
+    background:rgb(0, 255, 4);
+    color:#1106df;
+}
